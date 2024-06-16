@@ -6,3 +6,5 @@ const pool = new Pool({
     user: 'postgres',
     password: '123456'
 });
+
+module.exports = pool;
